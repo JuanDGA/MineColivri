@@ -1,0 +1,4 @@
+name: MineColivri
+version: '1.0-SNAPSHOT'
+main: dev.jguevara.minecolivri.Minecolivri
+api-version: '1.21'
