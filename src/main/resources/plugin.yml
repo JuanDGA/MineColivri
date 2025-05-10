@@ -1,4 +1,11 @@
 name: MineColivri
 version: '1.0-SNAPSHOT'
-main: dev.jguevara.minecolivri.Minecolivri
+main: dev.jguevara.minecolivri.MineColivri
 api-version: '1.21'
+commands:
+  register:
+    usage: /register <login>
+    description: Register the username under an email.
+  login:
+    usage: /login <otp>
+    description: Allows to play in the server by entering the otp code.
